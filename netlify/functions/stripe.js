@@ -7,11 +7,11 @@ exports.handler = async (event, context) => {
     line_items: [
       {
         price_data: {
-          currency: "usd",
+          currency: "myr",
           product_data: {
             name: "T-shirt",
           },
-          unit_amount: 2000,
+          unit_amount: 10000,
         },
         quantity: 1,
       },
