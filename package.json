@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "netlify dev",
     "netlify:open": "netlify open",
+    "netlify":"netlify",
     "deploy": "git push"
   },
   "repository": {
