@@ -17,6 +17,11 @@
     >
       <h1 style="text-align: center">💸💸 Serverless Payment example 💸💸</h1>
       <button id="checkout-button">Trigger payment</button>
+
+      <form action="/create-checkout-session" method="POST">
+        <button type="submit">Checkout</button>
+      </form>
+
       <script type="text/javascript">
         // Create an instance of the Stripe object with your publishable API key
         var stripe = Stripe(

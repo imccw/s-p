@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "netlify dev",
     "netlify:open": "netlify open",
-    "netlify":"netlify",
+    "netlify": "netlify",
     "deploy": "git push"
   },
   "repository": {
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/aperkaz/serverless-payments#readme",
   "dependencies": {
-    "stripe": "^8.184.0"
+    "stripe": "^8.218.0"
   }
 }
